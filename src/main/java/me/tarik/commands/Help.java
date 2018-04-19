@@ -15,7 +15,9 @@ public class Help {
 
         String help = ".help - returns this command\n\n" +
                 ".ping - returns pong!\n\n" +
-                ".invite - returns an invite link.";
+                ".invite - returns an invite link.\n\n" +
+                ".serverinfo - returns info about the server\n\n" +
+                ".servericon - returns the server icon";
 
         EmbedBuilder em = new EmbedBuilder();
 
